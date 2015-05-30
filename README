@@ -1,0 +1,37 @@
+# README file of d_CpH-MD.py program
+
+# INSTALLATION
+Unpack the compressed file with the following command:
+tar -zxvf d_CpH-MD.tar
+
+
+# Requirements
+Before executing the program, make sure that:
+ 1.   Python2, Numpy and Scipy are installed:
+    - whereis python or which python
+    - python -c 'import numpy; numpy.test()'
+    - python -c 'import scipy; scipy.test()'
+
+ 2. the path to the directory where Gromacs is installed
+    is correctly set up in the top lines of the source code
+
+# EXECUTION
+./d_CpH-MD.py CpH_MD.inp >& CpH_MD.log &
+
+# Files:
+d_CpH-MD/					    
+	readme.txt					- this file
+	d_CpH-MD.py					- source code required for preparing a Python egg
+
+	test-run/					- contains files for testing the code
+		CpH_MD.inp				- input file: contains simulation parameters
+		debug.log				- output file: log used for debugging
+		CpH_MD.log  			- output file: 
+		evolution.log			- output file:
+		prot_evol.xvg			- output file: time series of titratable site's protonation state
+		
+		input_files/			- resource directory
+			
+		    controllers/				- controllers
+			__init__.py			- instrumentino.InstrumentinoController: parent class for a controller
+

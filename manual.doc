@@ -1,0 +1,69 @@
+# Manual  of Py_CpH-MD
+
+Py_dCpH-MD: An open source python framework for discrete constant-pH molecular dynamics
+========
+Py_dCpH-MD realizes the discrete scheme of the constant pH MD methodology [1]. The code plugs into GROMACS [2] MD package. 
+The algorithm ensures that the charge of the simulation box is kept neutral during the simulation. 
+
+Unpack the compressed file with the following command:
+tar -zxvf d_CpH-MD.tar
+
+
+Requirements
+------------
+Please make sure that you have installed in your computing system the following libraries:
+ - Python 2.7, 
+ - Numpy and Scipy
+
+You can check  where is python or which python, with the following command:
+ * python -c 'import numpy; numpy.test()'
+ * python -c 'import scipy; scipy.test()'
+
+Also open the source code of d_CpH-MD.py using your favorite editor (vim, emacs, notepad)
+and set up corretly  the path to the directory where Gromacs is installed.
+
+Installation
+------------
+Unpack the compressed file with the following command:
+tar -zxvf d_CpH-MD.tar
+
+Usage
+-----
+Look how easy it is to use:
+
+./d_CpH-MD.py CpH_MD.inp >& CpH_MD.log &
+
+Features
+--------
+
+- Be awesome
+- Make things faster
+
+* The code is implemented to work with GROMACS MD package, but it can easily be integrated to other MD engines.
+
+Contribute
+----------
+
+- Issue Tracker: github.com/$project/$project/issues
+- Source Code: github.com/$project/$project
+
+Support
+-------
+
+If you are having issues, please let us know.
+We have a mailing list located at: Py_dCpH-MD@google-groups.com
+
+License
+-------
+
+The project is licensed under the ??? license.
+
+References
+----------
+
+[1] \bibitem{1} R.~B{\"{u}}rgi, P.~A. Kollman, W.~F. Van~Gunsteren, 
+Simulating proteins at constant ph: An approach combining molecular dynamics and monte carlo simulation, 
+Proteins 47~(4) (2002) 469--480.              
+[2] \bibitem{2} B.~Hess, C.~Kutzner, D.~van~der Spoel, E.~Lindahl, 
+{GROMACS} 4: Algorithms for highly efficient, {Load-Balanced}, and scalable molecular simulation, 
+J. Chem. Theory Comput. 4~(3) (2008) 435--447. 

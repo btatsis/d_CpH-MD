@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Manual  of Py_CpH-MD
 
 Py_dCpH-MD: An open source python framework for discrete constant-pH molecular dynamics
@@ -67,3 +68,6 @@ Proteins 47~(4) (2002) 469--480.
 [2] \bibitem{2} B.~Hess, C.~Kutzner, D.~van~der Spoel, E.~Lindahl, 
 {GROMACS} 4: Algorithms for highly efficient, {Load-Balanced}, and scalable molecular simulation, 
 J. Chem. Theory Comput. 4~(3) (2008) 435--447. 
+=======
+# Manual in simple ASCII format
+>>>>>>> 16c45edd3bd03c0dea0592b8e6307d3e0066d7a3
